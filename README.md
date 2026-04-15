@@ -29,7 +29,7 @@ This repository contains multiple hands-on projects developed as part of my tech
 
    * Reads server log files
    * Filters critical events (ERROR, CRITICAL, FAILED LOGIN)
-   * Generates alert report and summary
+   * Generates alert report and summary with date
 
 2. **Resume Analyzer & Job Matcher**
 
