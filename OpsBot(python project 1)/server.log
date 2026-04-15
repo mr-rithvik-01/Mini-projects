@@ -1,0 +1,8 @@
+INFO: User ABC login sucessful
+CRITICAL: System crash at 3:45 PM 
+FAILED LOGIN: Failed login attempt for user XYZ
+INFO: System backup completed
+ERROR: Disk space low on server1
+INFO: User DEF login sucessful
+CRITICAL: Unauthorized access detected on server2
+ERROR: Failed to connect to database

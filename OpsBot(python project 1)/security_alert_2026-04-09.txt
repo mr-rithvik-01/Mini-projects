@@ -1,0 +1,5 @@
+CRITICAL: System crash at 3:45 PM 
+FAILED LOGIN: Failed login attempt for user XYZ
+ERROR: Disk space low on server1
+CRITICAL: Unauthorized access detected on server2
+ERROR: Failed to connect to database

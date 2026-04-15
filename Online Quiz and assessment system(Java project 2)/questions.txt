@@ -1,0 +1,6 @@
+Which keyword is used for inheritance in Java?|A. implement|B. extends|C. inherit|D. super|B|Easy
+Which keyword is used to inherit parent class properties in Java?|A. implement|B. extends|C. inherit|D. super|B|Easy
+Which keyword is used to create an instance of a class in Java?|A. implement|B. class_name|C. create|D. new|D|Easy
+How does a instance of a subclass access the parent class constructor?|A. implement|B. extends|C. inherit|D. super|D|Medium
+Which collection does not allow duplicates?|A. List|B. Set|C. ArrayList|D. Queue|B|Medium
+Which exception occurs when dividing by zero?|A. IOException|B. NullPointerException|C. ArithmeticException|D. SQLException|C|Hard

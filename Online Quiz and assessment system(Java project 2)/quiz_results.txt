@@ -1,0 +1,2 @@
+Student: RICH | Score: 2/3 | Difficulty: Easy
+Student: Rich | Score: 2/3 | Difficulty: Easy
