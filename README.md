@@ -2,7 +2,7 @@
 
 Welcome to my **Mini Projects Repository** developed as part of the **Virtusa FY'27 Pre-Onboarding Training Program**.
 
-Unlike the standard training submission of a single project, this repository showcases **five complete projects** developed across **Python, SQL, and Java**, demonstrating my understanding of software development, object-oriented programming, database design, automation, GUI development, and problem-solving.
+I developed projects across **Python, SQL, and Java**, demonstrating my understanding of software development, object-oriented programming, database design, automation, GUI development, and problem-solving.
 
 ## 📌 Repository Highlights
 
