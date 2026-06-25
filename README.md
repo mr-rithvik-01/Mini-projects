@@ -6,17 +6,17 @@ I developed projects across **Python, SQL, and Java**, demonstrating my understa
 
 ## 📌 Repository Highlights
 
-*  **2 Python Projects**
+ **2 Python Projects**
 
   * Resume Analyzer using NLP
   * OpsBot - Log Analysis & Report Generator
 
-*  **2 Java Projects**
+ **2 Java Projects**
 
   * FinSafe Transaction Management System
   * Online Quiz & Assessment System
 
-*  **1 SQL Project**
+ **1 SQL Project**
 
   * Retail Insights Database System
 
