@@ -6,17 +6,17 @@ I developed projects across **Python, SQL, and Java**, demonstrating my understa
 
 ## 📌 Repository Highlights
 
-* 🐍 **2 Python Projects**
+*  **2 Python Projects**
 
   * Resume Analyzer using NLP
   * OpsBot - Log Analysis & Report Generator
 
-* ☕ **2 Java Projects**
+*  **2 Java Projects**
 
   * FinSafe Transaction Management System
   * Online Quiz & Assessment System
 
-* 🗄️ **1 SQL Project**
+*  **1 SQL Project**
 
   * Retail Insights Database System
 
@@ -62,13 +62,6 @@ Recruiters spend significant time manually reviewing resumes. This project autom
 * File Handling
 * Modular Programming
 * Exception Handling
-
-### 🌍 Real-World Applications
-
-* Applicant Tracking Systems (ATS)
-* HR Automation
-* Resume Screening
-* Recruitment Platforms
 
 ---
 
@@ -117,14 +110,7 @@ Retail businesses generate large volumes of customer, product, and sales data. T
 * Primary & Foreign Keys
 * SQL Queries
 * Data Integrity
-
-### 🌍 Real-World Applications
-
-* E-Commerce Systems
-* ERP Solutions
-* Inventory Management
-* Retail Analytics
-
+  
 ---
 
 ## 3️⃣ FinSafe Transaction Management System (Java)
@@ -162,12 +148,6 @@ Digital wallet applications require secure transaction processing and balance ma
 * ArrayList
 * Custom Exceptions
 * Modular Programming
-
-### 🌍 Real-World Applications
-
-* Digital Wallets
-* Banking Systems
-* Financial Applications
 
 ---
 
@@ -210,21 +190,6 @@ Digital wallet applications require secure transaction processing and balance ma
 | PyPDF2      | PDF Text Extraction         |
 | Java Swing  | Desktop GUI Development     |
 
----
-
-# 📚 Skills Demonstrated
-
-* Object-Oriented Programming
-* Data Structures & Collections
-* Exception Handling
-* Database Design
-* SQL Querying
-* File Handling
-* GUI Development
-* Automation
-* Natural Language Processing
-* Software Design
-* Problem Solving
 
 ---
 
