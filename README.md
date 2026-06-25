@@ -1,130 +1,233 @@
-# Mini-projects
+# 🚀 Multi-Project Repository | Python • SQL • Java
 
-This repository contains multiple hands-on projects developed as part of my technical training. Each project focuses on applying core concepts in Java, Python, and SQL to solve real-world problems.
+Welcome to my **Mini Projects Repository** developed as part of the **Virtusa FY'27 Pre-Onboarding Training Program**.
 
----
+Unlike the standard training submission of a single project, this repository showcases **five complete projects** developed across **Python, SQL, and Java**, demonstrating my understanding of software development, object-oriented programming, database design, automation, GUI development, and problem-solving.
 
-## 📁 Repository Contents
+## 📌 Repository Highlights
 
-### 🔹 Java Projects
+* 🐍 **2 Python Projects**
 
-1. **FinSafe Transaction Validator**
+  * Resume Analyzer using NLP
+  * OpsBot - Log Analysis & Report Generator
 
-   * Simulates a digital wallet system
-   * Handles deposits, withdrawals, and overdraft validation
-   * Includes custom exception handling and transaction history
+* ☕ **2 Java Projects**
 
-2. **Online Quiz & Assessment System**
+  * FinSafe Transaction Management System
+  * Online Quiz & Assessment System
 
-   * GUI-based quiz system using Java Swing
-   * Supports difficulty selection and timer-based questions
-   * Loads questions dynamically from file
-   * Generates performance report and auto-saves results
+* 🗄️ **1 SQL Project**
 
----
-
-### 🔹 Python Projects
-
-1. **OpsBot Log Automator**
-
-   * Reads server log files
-   * Filters critical events (ERROR, CRITICAL, FAILED LOGIN)
-   * Generates alert report and summary with date
-
-2. **Resume Analyzer & Job Matcher**
-
-   * Extracts keywords from resume (PDF/Text)
-   * Matches skills with job requirements
-   * Provides match score and missing skill suggestions
+  * Retail Insights Database System
 
 ---
 
-### 🔹 SQL Project
+# ⭐ Featured Projects
 
-1. **Retail Insights System**
+## 1️⃣ Resume Analyzer (Python)
 
-   * Database design for inventory and sales tracking
-   * Queries to detect expiring products and dead stock
-   * Revenue analysis using GROUP BY and JOIN
+### 📌 Problem Statement
 
----
+Recruiters spend significant time manually reviewing resumes. This project automates resume analysis by extracting text from PDF resumes and identifying relevant technical skills using Natural Language Processing (NLP).
 
-## 🛠️ How I Developed These Projects
+### 🎯 Objectives
 
-* Focused on understanding **core concepts instead of just implementation**
-* Used **clean and readable coding style**
-* Avoided complex frameworks to strengthen **fundamentals**
-* Designed each project based on a **real-world problem statement**
-* Ensured proper use of:
+* Extract text from PDF resumes
+* Preprocess textual data
+* Identify technical skills
+* Generate structured analysis
+* Reduce manual screening effort
 
-  * Object-Oriented Programming (Java)
-  * Exception Handling & Multithreading
-  * SQL Data Analysis (JOIN, GROUP BY)
-  * Python File Handling & Text Processing
+### ✨ Key Features
 
----
+* PDF Resume Parsing
+* NLP-based Text Processing
+* Skill Extraction
+* Keyword Matching
+* Resume Summary Generation
 
-## ▶️ How to Execute the Projects
+### 🛠️ Tech Stack
 
-### 🔸 Java Projects
+* Python
+* NLTK
+* PyPDF2
+* Regular Expressions
+* File Handling
 
-1. Open terminal inside project folder
-2. Compile:
+### 💡 Concepts Demonstrated
 
-   ```
-   javac FileName.java
-   ```
-3. Run:
+* Natural Language Processing
+* Text Preprocessing
+* Tokenization
+* File Handling
+* Modular Programming
+* Exception Handling
 
-   ```
-   java FileName
-   ```
+### 🌍 Real-World Applications
 
-For GUI project:
-
-* Make sure Java is installed
-* Run normally and GUI window will open
-
----
-
-### 🔸 Python Projects
-
-1. Install required libraries:
-
-   ```
-   pip install nltk PyPDF2
-   ```
-2. Run:
-
-   ```
-   python filename.py
-   ```
+* Applicant Tracking Systems (ATS)
+* HR Automation
+* Resume Screening
+* Recruitment Platforms
 
 ---
 
-### 🔸 SQL Project
+## 2️⃣ Retail Insights Database (SQL)
 
-1. Open MySQL Workbench
-2. Open the `.sql` file
-3. Execute all queries
-4. View results in output section
+### 📌 Problem Statement
+
+Retail businesses generate large volumes of customer, product, and sales data. This project designs a relational database capable of storing, managing, and analyzing retail operations efficiently.
+
+### 🎯 Objectives
+
+* Design normalized database schema
+* Maintain relational integrity
+* Perform sales analysis
+* Generate business insights
+* Practice advanced SQL querying
+
+### 🗄️ Database Schema
+
+* Customers
+* Products
+* Orders
+* Order Details
+
+### 🔑 Key Features
+
+* Customer Management
+* Product Inventory
+* Sales Tracking
+* Revenue Analysis
+* Business Reporting
+
+### 🛠️ Tech Stack
+
+* MySQL
+* SQL
+* Joins
+* Aggregate Functions
+* Constraints
+* Views
+
+### 💡 Concepts Demonstrated
+
+* Relational Database Design
+* Normalization
+* Primary & Foreign Keys
+* SQL Queries
+* Data Integrity
+
+### 🌍 Real-World Applications
+
+* E-Commerce Systems
+* ERP Solutions
+* Inventory Management
+* Retail Analytics
 
 ---
 
-## 💡 Key Concepts Covered
+## 3️⃣ FinSafe Transaction Management System (Java)
 
-* Java: OOP, Collections, Exception Handling, Multithreading, File Handling
-* Python: File Processing, NLP basics, Dictionaries, Automation
-* SQL: Joins, Aggregations, Data Analysis
-* Problem Solving & Logical Thinking
+### 📌 Problem Statement
+
+Digital wallet applications require secure transaction processing and balance management. FinSafe simulates a personal finance management system implementing core Java concepts.
+
+### 🎯 Objectives
+
+* Deposit & Withdraw Money
+* Track Transactions
+* Validate Operations
+* Maintain Transaction History
+
+### ✨ Key Features
+
+* Wallet Management
+* Transaction History
+* Custom Exception Handling
+* Balance Validation
+* Interactive Console Application
+
+### 🛠️ Tech Stack
+
+* Core Java
+* OOP
+* Collections Framework
+* Exception Handling
+
+### 💡 Concepts Demonstrated
+
+* Encapsulation
+* Abstraction
+* ArrayList
+* Custom Exceptions
+* Modular Programming
+
+### 🌍 Real-World Applications
+
+* Digital Wallets
+* Banking Systems
+* Financial Applications
 
 ---
 
-## 🚀 Final Note
+# Additional Projects
 
-These projects were built with the goal of strengthening core programming fundamentals and applying them to practical scenarios.
+## 📚 Online Quiz & Assessment System (Java)
+
+### Highlights
+
+* Java Swing GUI
+* Event Handling
+* File Handling
+* OOP Concepts
+* Quiz Evaluation
+* Score Calculation
 
 ---
 
-**Author:** Rithvik Teja G
+## 🤖 OpsBot (Python)
 
+### Highlights
+
+* Log File Analysis
+* Security Event Detection
+* Report Generation
+* Automation
+* File Handling
+* Exception Handling
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology  | Purpose                     |
+| ----------- | --------------------------- |
+| Python      | Automation & NLP            |
+| Java        | Object-Oriented Programming |
+| SQL (MySQL) | Database Design & Querying  |
+| NLTK        | Natural Language Processing |
+| PyPDF2      | PDF Text Extraction         |
+| Java Swing  | Desktop GUI Development     |
+
+---
+
+# 📚 Skills Demonstrated
+
+* Object-Oriented Programming
+* Data Structures & Collections
+* Exception Handling
+* Database Design
+* SQL Querying
+* File Handling
+* GUI Development
+* Automation
+* Natural Language Processing
+* Software Design
+* Problem Solving
+
+---
+
+# 🎯 Learning Outcomes
+
+Through these projects, I strengthened my understanding of software engineering fundamentals, database management, automation, Java programming, Python scripting, and practical problem-solving while developing real-world applications during the Virtusa Pre-Onboarding Training Program.
