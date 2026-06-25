@@ -54,14 +54,32 @@ Recruiters spend significant time manually reviewing resumes. This project autom
 * Regular Expressions
 * File Handling
 
-### 💡 Concepts Demonstrated
+### ▶️ How to Run
 
-* Natural Language Processing
-* Text Preprocessing
-* Tokenization
-* File Handling
-* Modular Programming
-* Exception Handling
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project
+cd Resume-Analyzer
+
+# Install required dependencies
+pip install nltk PyPDF2
+
+# Download NLTK resources (first time only)
+python
+>>> import nltk
+>>> nltk.download('punkt')
+>>> nltk.download('stopwords')
+>>> exit()
+
+# Run the application
+python main.py
+```
+
+> **Input:** PDF Resume
+> **Output:** Extracted skills and resume analysis report.
+
 
 ---
 
@@ -87,14 +105,6 @@ Retail businesses generate large volumes of customer, product, and sales data. T
 * Primary Keys (`category_id`, `product_id`, `transaction_id`)
 * Foreign Keys (`category_id`, `product_id`)
 
-### 🔑 Key Features
-
-* Customer Management
-* Product Inventory
-* Sales Tracking
-* Revenue Analysis
-* Business Reporting
-
 ### 🛠️ Tech Stack
 
 * MySQL
@@ -104,13 +114,25 @@ Retail businesses generate large volumes of customer, product, and sales data. T
 * Constraints
 * Views
 
-### 💡 Concepts Demonstrated
+### ▶️ How to Run
 
-* Relational Database Design
-* Normalization
-* Primary & Foreign Keys
-* SQL Queries
-* Data Integrity
+```sql
+-- Open MySQL Workbench or MySQL Command Line
+
+-- Create and select the database
+CREATE DATABASE mini_usecase;
+USE mini_usecase;
+
+-- Execute the SQL script
+SOURCE retail_insights.sql;
+```
+
+Alternatively, open the SQL script in **MySQL Workbench** and execute all statements to:
+
+* Create the database and tables
+* Insert sample records
+* Run analytical queries for inventory and sales insights
+
   
 ---
 
@@ -133,7 +155,6 @@ Digital wallet applications require secure transaction processing and balance ma
 * Transaction History
 * Custom Exception Handling
 * Balance Validation
-* Interactive Console Application
 
 ### 🛠️ Tech Stack
 
@@ -142,13 +163,29 @@ Digital wallet applications require secure transaction processing and balance ma
 * Collections Framework
 * Exception Handling
 
-### 💡 Concepts Demonstrated
+### ▶️ How to Run
 
-* Encapsulation
-* Abstraction
-* ArrayList
-* Custom Exceptions
-* Modular Programming
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project
+cd FinSafe
+
+# Compile Java files
+javac *.java
+
+# Run the application
+java Main
+```
+
+The application launches as a **console-based wallet management system**, allowing users to:
+
+* Deposit money
+* Withdraw money
+* View balance
+* Check transaction history
+
 
 ---
 
