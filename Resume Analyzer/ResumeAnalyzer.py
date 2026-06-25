@@ -1,19 +1,25 @@
 import nltk
 import string
 from collections import Counter
+from pathlib import Path
 from PyPDF2 import PdfReader
 nltk.download('punkt')
 
 def read_resume_content(file_path):
-    if file_path.endswith(".txt"):
+    file_path = Path(file_path)
+    if not file_path.exists():
+        print(f"File not found: {file_path}")
+        return ""
+
+    if str(file_path).endswith(".txt"):
         with open(file_path, "r", encoding="utf-8") as file:
             return file.read()
-    elif file_path.endswith(".pdf"):
+    elif str(file_path).endswith(".pdf"):
         pdf_reader = PdfReader(file_path)
         extracted_text = ""
 
         for page in pdf_reader.pages:
-            extracted_text += page.extract_text()
+            extracted_text += page.extract_text() or ""
 
         return extracted_text
     else:
@@ -73,9 +79,10 @@ def show_analysis_report(found_skills, missing_skills, match_score):
 
 def main():
     print("===== Resume Analyzer & Job Matcher =====")
-    resume_file = input(
-        "Enter resume file path (.txt or .pdf): "
-    )
+    script_dir = Path(__file__).resolve().parent
+    resume_file = script_dir / "Example_resume.pdf"
+    print(f"\nUsing resume: {resume_file}\n")
+    
     target_job_skills = [
         "Python",
         "SQL",
