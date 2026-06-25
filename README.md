@@ -1,6 +1,6 @@
 # 🚀 Multi-Project Repository | Python • SQL • Java
 
-Welcome to my **Mini Projects Repository** developed as part of the **Virtusa FY'27 Pre-Onboarding Training Program**.
+Welcome to my **Mini Projects Repository** developed as part of the **FY'27 Pre-Onboarding Training Program**.
 
 I developed projects across **Python, SQL, and Java**, demonstrating my understanding of software development, object-oriented programming, database design, automation, GUI development, and problem-solving.
 
@@ -81,10 +81,11 @@ Retail businesses generate large volumes of customer, product, and sales data. T
 
 ### 🗄️ Database Schema
 
-* Customers
-* Products
-* Orders
-* Order Details
+* **Categories** (`category_id`, `category_name`)
+* **Products** (`product_id`, `product_name`, `category_id`, `stock_count`, `expiry_date`, `price`)
+* **Sales_Transactions** (`transaction_id`, `product_id`, `quantity`, `sale_date`)
+* Primary Keys (`category_id`, `product_id`, `transaction_id`)
+* Foreign Keys (`category_id`, `product_id`)
 
 ### 🔑 Key Features
 
@@ -195,4 +196,4 @@ Digital wallet applications require secure transaction processing and balance ma
 
 # 🎯 Learning Outcomes
 
-Through these projects, I strengthened my understanding of software engineering fundamentals, database management, automation, Java programming, Python scripting, and practical problem-solving while developing real-world applications during the Virtusa Pre-Onboarding Training Program.
+Through these projects, I strengthened my understanding of software engineering fundamentals, database management, automation, Java programming, Python scripting, and practical problem-solving while developing real-world applications during the Pre-Onboarding Training Program.
