@@ -24,9 +24,9 @@ CREATE TABLE sales_transactions (
 );
 
 INSERT INTO categories VALUES
-(1, 'Type-1'),
-(2, 'Type-2'),
-(3, 'Type-3');
+(1, 'Dairy'),
+(2, 'Snacks'),
+(3, 'Beverages');
 
 INSERT INTO products VALUES
 (101, 'Milk', 1, 70, CURDATE() + INTERVAL 7 DAY, 30.00),
